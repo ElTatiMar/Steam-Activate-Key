@@ -60,7 +60,7 @@ For transparency and security, here is the readable, unencoded JavaScript source
 
     while (typeof key !== 'string' || !regExp.test(key)) {
       if (key === null) {
-        return; // User clicked Cancel
+        return;
       }
       if (error) {
         alert('Invalid Steam key!');
