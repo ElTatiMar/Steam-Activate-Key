@@ -22,7 +22,7 @@ Instead of manually navigating to the Steam Store activation page, clicking the 
 1. Make sure your browser's **Bookmarks Bar** is visible (press `Ctrl + Shift + B` on Windows/Linux or `Cmd + Shift + B` on macOS).
 2. Right-click on your bookmarks bar and select **Add page** or **Add bookmark**.
 3. Set the **Name** to `Steam Activate Key` (or any name you prefer).
-4. In the **URL** (or **Location**) field, paste the bookmarklet code from **[bookmarklet.js](bookmarklet.js)**
+4. In the **URL** (or **Location**) field, paste the bookmarklet code from [bookmarklet.js](bookmarklet.js)
 5. Click **Save**.
 
 ---
