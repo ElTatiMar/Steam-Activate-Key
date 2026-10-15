@@ -22,12 +22,7 @@ Instead of manually navigating to the Steam Store activation page, clicking the 
 1. Make sure your browser's **Bookmarks Bar** is visible (press `Ctrl + Shift + B` on Windows/Linux or `Cmd + Shift + B` on macOS).
 2. Right-click on your bookmarks bar and select **Add page** or **Add bookmark**.
 3. Set the **Name** to `Steam Activate Key` (or any name you prefer).
-4. In the **URL** (or **Location**) field, paste the bookmarklet code from [bookmarklet.js](file:///c:/Users/Tati/Documents/Scritps/Steam%20Activate%20Key/bookmarklet.js) (or the snippet below):
-
-```javascript
-javascript:(function()%7B'use%20strict'%3B(()%20%3D%3E%20%7Bconst%20baseUrl%20%3D%20'https%3A%2F%2Fstore.steampowered.com%2Faccount%2Fregisterkey%3Fkey%3D'%3Blet%20key%20%3D%20undefined%3Bconst%20regExp%20%3D%20%2F%5E%5Ba-zA-Z0-9%5D%7B5%7D-%5Ba-zA-Z0-9%5D%7B5%7D-%5Ba-zA-Z0-9%5D%7B5%7D%24%2Fmi%3Blet%20error%20%3D%20false%3Bwhile%20(typeof%20key%20!%3D%3D%20'string'%20%7C%7C%20!regExp.test(key))%20%7Bif%20(key%20%3D%3D%3D%20null)%20%7Breturn%3B%7Dif%20(error)%20%7Balert('Invalid%20Steam%20key!')%3B%7D%20else%20%7Berror%20%3D%20true%3B%7Dkey%20%3D%20prompt('Please%20enter%20a%20Steam%20key%3A'%2C%20undefined)%3B%7Dconst%20url%20%3D%20baseUrl%20%2B%20key.toString().toUpperCase()%3Bwindow.open(url%2C'_blank')%3B%7D)()%7D)()
-```
-
+4. In the **URL** (or **Location**) field, paste the bookmarklet code from **[bookmarklet.js](bookmarklet.js)**
 5. Click **Save**.
 
 ---
